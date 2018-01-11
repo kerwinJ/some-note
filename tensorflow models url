@@ -1,0 +1,196 @@
+转载网址：http://note.youdao.com/share/?id=71216576910b7a6cd6f2a0f2ebf8faa2&type=note#/        —— 感谢AI研习社的分享
+Models in TensorFlow from GitHub
+图像处理/识别
+ 
+1.PixelCNN &PixelRNN in TensorFlow
+TensorFlowimplementation of Pixel Recurrent Neural Networks.
+地址：https://github.com/carpedm20/pixel-rnn-tensorflow
+ 
+2.Simulated+Unsupervised(S+U) learning in TensorFlow
+TensorFlowimplementation of Learning from Simulated and UnsupervisedImages through Adversarial Training.
+地址：https://github.com/carpedm20/simulated-unsupervised-tensorflow
+ 
+3.ResNet inTensorFlow
+Implemenation of Deep Residual Learning for ImageRecognition. Includes a tool to use He et al'spublished trained Caffe weights in TensorFlow.
+地址：https://github.com/ry/tensorflow-resnet
+ 
+4.A composableGenerative Adversarial Network(GAN) with API and command line tool
+HyperGAN，A versatile GAN(generative adversarial network) implementation focused onscalability and ease-of-use.
+地址：https://github.com/255BITS/HyperGAN
+ 
+5.conversation ofcaffe vgg16 model to tensorflow
+VGG-16 is my favoriteimage classification model to run because of its simplicity and accuracy. Thecreators of this model published a pre-trained binarythat can be used inCaffe.
+地址：https://github.com/ry/tensorflow-vgg16
+ 
+6.A Kitti Road Segmentationmodel implemented in tensorflow
+KittiSeg performssegmentation of roads by utilizing an FCN based model. The model achieved first place on the Kitti RoadDetection Benchmark at submission time. Check out our paper for a detailed modeldescription.
+地址：https://github.com/MarvinTeichmann/KittiSeg
+ 
+7.TensorFlow tutorialon Generative Adversarial Models
+地址：https://github.com/ericjang/genadv_tutorial
+ 
+8.Pretrained modelsfor TFLearn and TensorFlow
+地址：https://github.com/tflearn/models
+ 
+9.Generative Modelswith TensorFlow
+地址：https://github.com/arahuja/generative-tf
+ 
+10.Re-implementationof the m-RNN model using TensorFLow
+This package is are-implementation of the m-RNN image captioningmethod using TensorFlow. The training speed isoptimized with buckets of different lengths of the training sentences. It alsosupport the Beam Search method to decode image features into sentences.
+地址：https://github.com/mjhucla/TF-mRNN
+ 
+11.Recurrent Modelsof Visual Attention
+Modified from https://github.com/jlindsey15/RAM
+Implementation of "Recurrent Modelsof Visual Attention" V. Mnih et al.
+Run by python ram.py and it canreproduce the result on Table 1 (a) 28x28 MNIST
+地址：https://github.com/zhongwen/RAM
+ 
+12.Simple ImageClassification Models for the CIFAR-10 dataset using TensorFlow
+This is the code forthe blog post 'How to Build a SimpleImage Recognition System Using TensorFlow'.
+地址：https://github.com/wolfib/image-classification-CIFAR10-tf
+ 
+13.IllustrationGAN
+A simple, cleanTensorFlow implementation of Generative Adversarial Networks with a focus onmodeling illustrations.
+地址：https://github.com/tdrussell/IllustrationGAN
+ 
+14.ImageNetpre-trained models with batch normalization
+This repositorycontains convolutional neural network (CNN) models trained on ImageNet byMarcel Simon at the Computer Vision Group Jena (CVGJ) using the Caffeframework. Each model is in a separate subfolder and contains everything neededto reproduce the results. This repository focuses currently contains thebatch-normalization-variants of AlexNet and VGG19 as well as the training codefor Residual Networks (Resnet).
+地址：https://github.com/cvjena/cnn-models
+ 
+15.Face recognitionusing Tensorflow
+This is a TensorFlowimplementation of the face recognizer described in the paper "FaceNet: A Unified Embedding forFace Recognition and Clustering". The project also usesideas from the paper "A Discriminative Feature LearningApproach for Deep Face Recognition" as well as the paper "Deep FaceRecognition" from the Visual Geometry Group at Oxford.
+地址：https://github.com/davidsandberg/facenet
+ 
+ 
+语音/语义/文字
+1.Multi-layerRecurrent Neural Networks (LSTM, RNN) for word-level language models in Pythonusing TensorFlow
+Mostly reused code fromhttps://github.com/sherjilozair/char-rnn-tensorflow which was inspiredfrom Andrej Karpathy's char-rnn.
+地址：https://github.com/hunkim/word-rnn-tensorflow
+ 
+2.LSTM language modelwith CNN over characters in TensorFlow
+Tensorflowimplementation of Character-Aware Neural Language Models. The original code ofauthor can be found here.
+地址：https://github.com/carpedm20/lstm-char-cnn-tensorflow
+ 
+3.A neuralconversational model
+My tensorflowimplementation of "A neural conversational model", a Deep learningbased chatbot. This work tries to reproduce the results of A Neural Conversational Model (aka the Googlechatbot). It uses a RNN (seq2seq model) for sentence predictions. It is doneusing python and TensorFlow.
+地址：https://github.com/Conchylicultor/DeepQA
+ 
+4.Tensorflow basedNeural Conversation Models
+This implementationcontains an extension of seq2seq tutorial for conversation models inTensorflow. Examples ofbasic model can be found inthis paper.
+地址：https://github.com/pbhatia243/Neural_Conversation_Models
+ 
+5.ByteNet forcharacter-level language modelling
+This is a tensorflowimplementation of the byte-net model from DeepMind's paper Neural Machine Translation in LinearTime.
+地址：https://github.com/paarthneekhara/byteNet-tensorflow
+ 
+6.Language Modelingwith Gated Convolutional Networks
+This is a Tensorflowimplementation of Facebook AI Research Lab's paper: Language Modeling with GatedConvolutional Networks. This paper applies a convolutionalapproach to language modelling with a novel Gated-CNN model.
+地址：https://github.com/anantzoid/Language-Modeling-GatedCNN
+ 
+7.Experiment diverseDeep learning models for music generation with TensorFlow
+The different modelsand experiments are explained here.
+地址：https://github.com/Conchylicultor/MusicGenerator
+ 
+8.TensorFlow RNNLanguage Model
+This module is anexample of how create a recursive neural network language model using TensorFlow.
+地址：https://github.com/wpm/tfrnnlm
+ 
+9.tensorflow port ofthe lda2vec model for unsupervised learning of document + topic + wordembeddings
+TensorFlowimplementation of Christopher Moody's lda2vec, a hybrid of Latent DirichletAllocation & word2vec.
+地址：https://github.com/meereeum/lda2vec-tf
+ 
+10.Implementcharacter-level language models for text generation based-on LSTM, inPython/TensorFlow
+本程序用于自动生成一段中文文本（训练语料是英文时也可用于生成英文文本），具体生成文本的内容和形式取决于训练语料。模型基本思想和 karpathy 的char-rnn程序一致，利用循环神经网络 (RNN) 在大规模语料上训练一个 language model，然后利用训练好的 language model 去自动生成一段文本。相比于 theano 版本的char-rnn模型，本模型采用了多层 RNN 而不是单层（tensorflow 中实现一个多层 RNN 简直太方便了），同时还支持 max、sample 和 beam-search 多种生成策略。本程序代码参考了 tensorflow 官方给出的一个 language model 程序ptb_word_lm.py。
+地址：https://github.com/hit-computer/char-rnn-tf
+ 
+11.Visual QuestionAnswering Demo on pretrained model
+This is a simple Demoof Visual Question answering which uses pretrained models (see models/CNN andmodels/VQA) to answer a given question about the given image.
+地址：https://github.com/iamaaditya/VQA_Demo
+ 
+12.tf-adaptive-softmax-lstm-lm
+This repository showsthe experiment result of LSTM language models on PTB (Penn Treebank) and GBW (Google One Billion Word) using AdaptiveSoftmaxon TensorFlow.
+地址：https://github.com/TencentAILab/tf-adaptive-softmax-lstm-lm
+ 
+综合
+1.TensorFlow Models
+This repositorycontains machine learning models implemented in TensorFlow. The models are maintained by theirrespective authors.
+地址：https://github.com/tensorflow/models
+ 
+2.Collection ofgenerative models, e.g. GAN, VAE in Pytorch and Tensorflow
+What's in it?
+GAN: 1.Vanilla GAN 2.ConditionalGAN 3.InfoGAN 4.Wasserstein GAN 5.Mode Regularized GAN 6.Coupled GAN7.Auxiliary Classifier GAN 8.Least Squares GAN 9.Boundary Seeking GAN 10.EnergyBased GAN 11.f-GAN 12.Generative Adversarial Parallelization 12.DiscoGAN13Adversarial Feature Learning & Adversarially Learned Inference
+VAE: 1.Vanilla VAE 2.ConditionalVAE 3.Denoising VAE 4.Adversarial Autoencoder 5.Adversarial Variational Bayes
+地址：https://github.com/wiseodd/generative-models
+ 
+3.Deep learning usingtensorflow
+Tensorflow Projects Arepo of everything deep and neurally related. Implementations and ideas arelargely based on papers from arxiv and implementations, tutorials from theinternet.
+地址：https://github.com/shekkizh/TensorflowProjects
+ 
+4.A library for probabilisticmodeling, inference, and criticism. Deep generative models, variationalinference. Runs on TensorFlow.
+Edward is a Python libraryfor probabilistic modeling, inference, and criticism. It is a testbed for fastexperimentation and research with probabilistic models, ranging from classicalhierarchical models on small data sets to complex deep probabilistic models onlarge data sets. Edward fuses three fields: Bayesian statistics and machinelearning, deep learning, and probabilistic programming.
+地址：https://github.com/blei-lab/edward
+ 
+5.Tensorflow Tutorialfiles and Implementations of various Deep NLP and CV Models.
+This repositorycontains Tensorflow implementations of various deep learning models, with afocus on problems in Natural Language Processing. Each individual subdirectoryis self-contained, addressing one specific model.
+地址：https://github.com/siddk/deep-nlp
+ 
+6.A tensorflowlibrary for building all kinds of models
+TensorGraph is a framework for buildingany imaginable models based on TensorFlow.
+As deep learning becomes more and morecommon and the architectures becoming more and more complicated, it seems thatwe need some easy to use framework to quickly build these models and that's whyTensorGraph is born. It's a very simple and easy to use framework, but itallows you to build all kinds of imaginable models.
+地址：https://github.com/hycis/TensorGraph
+ 
+7.PyTorch andTensorflow functional model definitions
+Model definitions and pretrained weightsfor PyTorch and Tensorflow
+PyTorch, unlike lua torch, has autogradin it's core, so using modular structure of torch.nn modules is not necessary,one can easily allocate needed Variables and write a function that utilizesthem, which is sometimes more convenient. This repo contains model definitionsin this functional way, with pretrained weights for some models.
+Weights are serialized as a dict ofarrays in hdf5, so should be easily loadable in other frameworks. Thanks to@edgarriba we have cpp_parser for loading weights in C++.
+More models coming! We also plan to adddefinitions for other frameworks in future, probably tiny-dnn first.Contributions are welcome.
+See also imagenet classification withPyTorch demo.ipynb
+地址：https://github.com/szagoruyko/functional-zoo
+ 
+8.Neural networkmodels in tensorflow
+地址：https://github.com/AJwader/Tensorflow-models
+ 
+其他
+1.Caffe models inTensorFlow
+Convert Caffe models to TensorFlow.
+地址：https://github.com/ethereon/caffe-tensorflow
+ 
+2.Run Keras models(tensorflow backend) in the browser, with GPU support
+Models are createddirectly from the Keras JSON-format configuration file, using weightsserialized directly from the corresponding HDF5 file. Also works in node, butonly in CPU mode.
+地址：https://github.com/transcranial/keras-js
+ 
+3.Simplify thetraining and tuning of Tensorflow models
+Stop wasting your timerewriting the training, evaluation & visualization procedures for your MLmodel: let DyTB do the work for you!
+地址：https://github.com/galeone/dynamic-training-bench
+ 
+4.Observations andnotes to understand the workings of neural network models and other thoughtexperiments using Tensorflow
+A repo of observationsand notes to understand the workings of neural network models and other simplethought experiments using Tensorflow.
+地址：https://github.com/shekkizh/neuralnetworks.thought-experiments
+ 
+5.attention model forentailment on SNLI corpus implemented in Tensorflow and Keras
+Implementations of a attention model forentailment from this paper in keras and tensorflow.
+Compatible with keras v1.0.6 andtensorflow 0.11.0rc2
+I implemented the model to learn theAPIs for keras and tensorflow, so I have not really tuned on the performance.The models implemented in keras is a little different, as keras does not exposea method to set a LSTMs state.
+地址：https://github.com/shyamupa/snli-entailment
+ 
+6.MultilayerFeed-Forward Neural Network predictive model implementations with TensorFlowand scikit-learn
+This project providesmultilayer perceptron predictive models, implemented using TensorFlow and following the scikit-learnPredictor API.
+地址：https://github.com/civisanalytics/muffnn
+ 
+7.Keras pretrainedmodels (VGG16 and InceptionV3) + Transfer Learning for predicting classes inthe Oxford 102 flower dataset
+See my application foridentifying plants and taking care them - Plant Care. It works using the code from the modelimplemented in this repo.
+This bootstraps the training of deepconvolutional neural networks with Keras to classify images in the Oxford 102 category flower dataset.
+Train process is fully automated and thebest weights for the model will be saved.
+This code can be used for any dataset,just follow the original files structure in data/sorted directory after runningbootstrap.py. If you wish to store your datasetsomewhere else, you can do it and run train.py with setting a path to dataset with aspecial parameter --data_dir==path/to/your/sorted/data.
+地址：https://github.com/Arsey/keras-transfer-learning-for-oxford102
+ 
+8.Tensorflow ModelZoo for Torch7 and PyTorch
+This is a porting of tensorflowpretrained models made by Remi Cadene and Micael Carvalho. Special thanks to Moustapha Cissé. All models have beentested on Imagenet.
+This work was inspired by inception-v3.torch.
+地址：https://github.com/Cadene/tensorflow-model-zoo.torch
+ 
+9.Kerasimplementation of "Wide Residual Networks"
+This repo contains the code to run WideResidual Networks using Keras.
+Paper (v1): http://arxiv.org/abs/1605.07146v1 (the authors have since published a v2 of the paper, which introduces slightly different preprocessing and improves the accuracy a little).
+Original code: https://github.com/szagoruyko/wide-residual-networks
+地址：https://github.com/asmith26/wide_resnets_keras
